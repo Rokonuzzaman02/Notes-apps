@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453071837047",
+    "project_id": "nootbook-2fbb5",
+    "storage_bucket": "nootbook-2fbb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453071837047:android:48fb9fdd7ee95a913af372",
+        "android_client_info": {
+          "package_name": "com.example.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl6VS0mbZ79gBJKhcGW0IOG5z0XGoCHug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

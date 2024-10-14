@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navi"
+    app:startDestination="@id/login_Fragment">
+
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.example.notes.home_Fragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" >
+        <action
+            android:id="@+id/action_home_Fragment_to_addnote_Fragment"
+            app:destination="@id/addnote_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_Fragment"
+        android:name="com.example.notes.login_Fragment"
+        android:label="fragment_login_"
+        tools:layout="@layout/fragment_login_" >
+        <action
+            android:id="@+id/action_login_Fragment_to_singinFragment"
+            app:destination="@id/singinFragment" />
+        <action
+            android:id="@+id/action_login_Fragment_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singinFragment"
+        android:name="com.example.notes.singinFragment"
+        android:label="fragment_singin"
+        tools:layout="@layout/fragment_singin" >
+        <action
+            android:id="@+id/action_singinFragment_to_login_Fragment"
+            app:destination="@id/login_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addnote_Fragment"
+        android:name="com.example.notes.addnote_Fragment"
+        android:label="fragment_addnote_"
+        tools:layout="@layout/fragment_addnote_" >
+        <action
+            android:id="@+id/action_addnote_Fragment_to_home_Fragment"
+            app:destination="@id/home_Fragment" />
+    </fragment>
+</navigation>

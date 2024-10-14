@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#CA8D33"
+    tools:context=".singinFragment">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/images"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Notes Book"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes Your Information"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/usernam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:hint="Enter user nam"
+        android:textAlignment="center"
+        android:background="@drawable/allbton"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+
+    <EditText
+        android:id="@+id/emailltex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:hint="Enter Emaill"
+        android:textAlignment="center"
+        android:background="@drawable/allbton"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/passwtex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:hint="Enter Password"
+        android:textAlignment="center"
+        android:background="@drawable/allbton"
+        android:padding="10dp"
+        android:inputType="textPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/singinbtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing In"
+        android:background="@drawable/btton"
+        android:layout_margin="12dp"
+        android:textColor="#020210"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"/>
+
+
+
+    <TextView
+        android:id="@+id/haveaccont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have already an account"
+        android:textColor="#171414"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
