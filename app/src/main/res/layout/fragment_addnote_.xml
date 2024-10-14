@@ -34,7 +34,7 @@
 
    <EditText
        android:id="@+id/texttll"
-       android:layout_width="match_parent"
+       android:layout_width="390dp"
        android:layout_height="600dp"
        android:layout_margin="10dp"
        android:background="@drawable/textall"
